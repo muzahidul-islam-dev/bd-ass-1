@@ -69,8 +69,14 @@ nav {
     background: #E8E6DE;
     padding: 80px 0;
     min-height: 600px;
+    position: relative;
 }
-
+.hero-shadow{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    opacity: .1;
+}
 .hero-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -732,7 +738,7 @@ nav {
 
 .footer .copywrite{
     color: #8F7D6A;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 18px;
     padding: 20px 0;
     text-align: center;
