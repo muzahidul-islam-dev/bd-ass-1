@@ -331,7 +331,7 @@ nav {
     z-index: 2;
 }
 .product-image-container{
-    background-color: #fff;
+    background-color: #f2f2f2;
     border-radius: 10px;
     display: flex;
     justify-content: center;
